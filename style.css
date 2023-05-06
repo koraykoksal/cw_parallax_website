@@ -1,0 +1,483 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #666;
+    height: 100%;
+} */
+
+div{
+    display: block;
+}
+.first_container_img1,.second_container_img2,.third_container_img3,.fourth_container_img3,.fiveth_container_img3{
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.first_container_img1{
+
+    background-image: url(assets/img/bg.jpg);
+
+
+}
+.second_container_img2{
+
+    background-image: url(assets/img/bg2.jpg);
+
+
+}
+.third_container_img3{
+    background-image: url(assets/img/bg3.jpg);
+}
+
+.fourth_container_img3{
+    background-image: url(assets/img/bg4.jpg);
+}
+.fiveth_container_img3{
+    background-image: url(assets/img/bg.jpg);
+}
+
+.heading-container {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    color: white;
+    margin-top: 300px;
+    margin-bottom: 500px;
+    padding: 20px;
+    border: 5px solid purple;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+
+}
+
+
+
+
+.heading-container span {
+   
+    color: white;
+    padding: 5px;
+    background-color: black;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    font-size: 7rem;
+
+}
+
+
+.step2{
+    background-color: #f1f1f1;
+}
+
+.step2 h2{
+    text-align: center;
+    padding: 2rem 4rem;
+    font-size: 2rem;
+}
+
+.step2 p{
+    padding: 2rem 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+.heading-container2 {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    color: white;
+    margin-top: 300px;
+    margin-bottom: 500px;
+    padding: 20px;
+
+
+}
+
+.heading-container2 img{
+    width: 40%;
+    margin: 2rem;
+}
+
+
+.step3{
+    background-color: #282e34;
+}
+
+.step3 h2{
+    text-align: center;
+    padding: 2rem 4rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.step3 p{
+    padding: 2rem 4rem;
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+}
+
+
+.heading-container3 {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    color: white;
+    margin-top: 300px;
+    margin-bottom: 500px;
+    padding: 20px;
+    border: 5px solid purple;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+
+
+}
+
+.heading-container3 img{
+    width: 40%;
+    margin: 2rem;
+    border-radius: 100%;
+}
+
+
+.heading-container3 span {
+   
+    color: white;
+    padding: 5px;
+    background-color: black;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    font-size: 3rem;
+
+}
+
+
+.step4{
+    background-color: #f1f1f1;
+}
+
+.step4 h2{
+    text-align: center;
+    padding: 2rem 4rem;
+    font-size: 2rem;
+}
+
+.step4 p{
+    padding: 2rem 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+.heading-container4 {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    color: white;
+    margin-top: 300px;
+    margin-bottom: 500px;
+    padding: 20px;
+    border: 5px solid purple;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+
+}
+
+
+
+
+.heading-container4 span {
+   
+    color: white;
+    padding: 5px;
+    background-color: black;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    font-size: 3rem;
+
+}
+
+
+
+.step5{
+    background-color: #282e34;
+}
+
+.step5 h2{
+    text-align: center;
+    padding: 2rem 4rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.step5 p{
+    padding: 2rem 4rem;
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+}
+
+
+.heading-container5 {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    color: white;
+    margin-top: 300px;
+    margin-bottom: 500px;
+    padding: 20px;
+    border: 5px solid purple;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+
+}
+
+
+
+
+.heading-container5 span {
+   
+    color: white;
+    padding: 5px;
+    background-color: black;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    font-size: 4rem;
+
+}
+
+
+
+@media screen and (max-width: 1250px) {
+    .heading-container {
+        text-align: center;
+        font-size: 4rem;
+        letter-spacing: 0.5rem;
+        color: white;
+        margin-top: 300px;
+        margin-bottom: 500px;
+        padding: 20px;
+        border: 5px solid purple;
+        border-top-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+    
+    }
+    
+    
+    
+    
+    .heading-container span {
+       
+        color: white;
+        padding: 5px;
+        background-color: black;
+        border-top-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        font-size: 5rem;
+    
+    }
+
+    .heading-container2 img{
+        width: 60%;
+        margin: 2rem;
+    }
+
+
+    .heading-container3 {
+        text-align: center;
+        font-size: 1rem;
+        letter-spacing: 0.9rem;
+        color: white;
+        margin-top: 300px;
+        margin-bottom: 500px;
+        padding: 20px;
+        border: 5px solid purple;
+        border-top-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+    
+    }
+    
+    
+    
+    
+    .heading-container3 span {
+       
+        color: white;
+        padding: 5px;
+        background-color: black;
+        border-top-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        font-size: 2rem;
+    
+    }
+
+
+
+    .heading-container4 {
+        text-align: center;
+        font-size: 1rem;
+        letter-spacing: 0.9rem;
+        color: white;
+        margin-top: 300px;
+        margin-bottom: 500px;
+        padding: 20px;
+        border: 5px solid purple;
+        border-top-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+    
+    }
+    
+    
+    
+    
+    .heading-container4 span {
+       
+        color: white;
+        padding: 5px;
+        background-color: black;
+        border-top-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        font-size: 2rem;
+    
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .heading-container {
+        text-align: center;
+        font-size: 4rem;
+        letter-spacing: 0.5rem;
+        color: white;
+        margin-top: 300px;
+        margin-bottom: 500px;
+        padding: 20px;
+        border: 5px solid purple;
+        border-top-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+    
+    }
+    
+    
+    
+    
+    .heading-container span {
+       
+        color: white;
+        padding: 5px;
+        background-color: black;
+        border-top-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        font-size: 5rem;
+    
+    }
+
+    .heading-container2 img{
+        width: 80%;
+        margin: 2rem;
+    }
+
+
+    .heading-container3 {
+        text-align: center;
+        font-size: 1rem;
+        letter-spacing: 0.9rem;
+        color: white;
+        margin-top: 300px;
+        margin-bottom: 500px;
+        padding: 20px;
+        border: 5px solid purple;
+        border-top-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+        width: 80%;
+    
+    }
+    
+    
+    
+    
+    .heading-container3 span {
+       
+        color: white;
+        padding: 5px;
+        background-color: black;
+        border-top-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        font-size: 2rem;
+    
+    }
+
+
+
+    .heading-container4 {
+        text-align: center;
+        font-size: 1rem;
+        letter-spacing: 0.9rem;
+        color: white;
+        margin-top: 300px;
+        margin-bottom: 500px;
+        padding: 20px;
+        border: 5px solid purple;
+        border-top-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+        width: 80%;
+    
+    }
+    
+    
+    
+    
+    .heading-container4 span {
+       
+        color: white;
+        padding: 5px;
+        background-color: black;
+        border-top-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        font-size: 2rem;
+    
+    }
+
+
+    .heading-container5 {
+        text-align: center;
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+        color: white;
+        margin-top: 300px;
+        margin-bottom: 500px;
+        padding: 20px;
+        border: 5px solid purple;
+        border-top-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+        width: 80%;
+    
+    }
+
+}
